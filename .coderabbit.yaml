@@ -2,9 +2,8 @@
 
 reviews:
   auto_review:
-    enabled: true                 # auto-review always on
-    auto_incremental_review: true # incremental mode for efficiency
+    enabled: true
+    auto_incremental_review: true
     base_branches:
-      - ".*"                      # all branches
-    allow_manual_override: true   # lets @coderabbitai review force full review
-  review_status: true             # shows status messages on PRs
+      - ".*"
+  review_status: true
