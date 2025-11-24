@@ -12,7 +12,7 @@ const App = () => {
       <Navbar />
       <Welcome />
       <Dock />
-      Í
+
       <Terminal />
     </main>
   );
