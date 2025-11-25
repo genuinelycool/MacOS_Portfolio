@@ -2,7 +2,7 @@ import { useRef } from "react";
 import { Tooltip } from "react-tooltip";
 import gsap from "gsap";
 
-import { dockApps } from "#constants/index.js";
+import { dockApps } from "#constants";
 import { useGSAP } from "@gsap/react";
 import useWindowStore from "#store/window.js";
 
